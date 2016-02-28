@@ -2,8 +2,9 @@ export GOPATH="$HOME/projects/go"
 
 alias home="cd $HOME"
 alias reload="source $HOME/.bashrc"
+alias vi="vim"
 
-export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin:$HOME/bin
+export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 export topiary="$HOME/projects/go/src/github.com/topiary-io/topiary"
 export test="$HOME/projects/test-site"
 
